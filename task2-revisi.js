@@ -21,4 +21,4 @@ function searchName(paramText, paramLimit, callback) {
     callback(finalResult)
 }
 
-searchName('an', 3, console.log)
+searchName('An', 3, console.log)
