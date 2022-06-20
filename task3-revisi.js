@@ -18,11 +18,11 @@ function sortingNumber(firstNumber, lastNumber, dataArray) {
 // benar 1
 console.log(sortingNumber(2, 40, [2, 5, 39, 74, 1, 9, 20]))
 
-// // benar 2
-// console.log(sortingNumber(10, 100, [30, 5, 4, 1, 20, 14, 67]))
+// benar 2
+console.log(sortingNumber(10, 100, [30, 5, 4, 1, 20, 14, 67]))
 
-// // salah jumlah dataArray
-// console.log(sortingNumber(2, 30, [74, 1, 9, 20]))
+// salah jumlah dataArray
+console.log(sortingNumber(2, 30, [74, 1, 9, 20]))
 
-// // salah nilai awal lebih dari nilai akhir
-// console.log(sortingNumber(100, 1, [30, 5, 4, 1, 20, 14, 67]))
+// salah nilai awal lebih dari nilai akhir
+console.log(sortingNumber(100, 1, [30, 5, 4, 1, 20, 14, 67]))
